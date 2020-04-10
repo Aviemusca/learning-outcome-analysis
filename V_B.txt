@@ -1,0 +1,6 @@
+identify, name, recite, state, who, what, where, when, why, select, define, describe, label, match, pick, recognise, recognize, list
+characterise, characterize, explain, interpret, predict, compare, contrast, rephrase, retell, translate, conclude, describe, discuss, understand
+apply, calculate, choose, determine, develop, illustrate, organise, organize, present, show, solve, respond, select, task, use, measure, work, modify, process, produce, perform, construct, demonstrate, adapt, convert, send
+analyse, analyze, distinguish, observe, proofread, reason, document, explain, infer, reason, compare, contrast, investigate, separate, advertise, advertize, differentiate
+imagine, create, compile, compose, hypothesise, hypothesize, judge, test, model, reorganise, reorganize, establish, devise, assemble, connect, combine, integrate, formulate, elaborate, collect, structure, design, modify, plan, specify, program
+agree, appreciate, assess, consider, critique, debate, defend, determine, evaluate, interpret, judge, justify, prove, recommend, relate, select, support, value, verify

@@ -1,0 +1,61 @@
+Students can describe a systematic process for solving problems and making decisions
+Students can explain how the power of computing enables different solutions to difficult problems
+Students can solve problems by deconstructing them into smaller units using a systematic approach in an iterative fashion
+Students can solve problems using skills of logic
+Students can evaluate alternative solutions to computational problems
+Students can explain the operation of a variety of algorithms
+Students can develop algorithms to implement chosen solutions
+Students can evaluate the costs and benefits of the use of computing technology in automating processes
+Students can use modelling and simulation in relevant situations
+Students can discuss when heuristics should and could be used and explain the limitations of using heuristics
+Students can discuss the complex relationship between computing technologies and society including issues of ethics
+Students can compare the positive and negative impacts of computing on culture and society
+Students can identify important computing developments that have taken place in the last 100 years and consider emerging trends that could shape future computing technologies
+Students can explain when and what machine learning and AI algorithms might be used in certain contexts
+Students can consider the quality of the user experience when interacting with computers and list principles of universal design, including the role of a user interface and the factors that contribute to its usability
+Students can compare two different user interfaces and identify different design decisions that shape the user experience
+Students can describe the role that adaptive technology can play in the lives of people with special needs
+Students can recognise the diverse roles and careers that use computing technologies
+Students can identify features of both staged and iterative design and development processes
+Students can collaborate and assign roles and responsibilities within a team to tackle a computing task
+Students can identify alternative perspectives, considering different disciplines, stakeholders and end users
+Students can read, write, test, and modify computer programs
+Students can reflect and communicate on the design and development process
+
+Students can use abstraction to describe systems and to explain the relationship between wholes and parts
+Students can use a range of methods for identifying patterns and abstract common features
+Students can implement modular design to develop hardware or software modules that perform a specific function
+Students can illustrate examples of abstract models
+Students can use pseudo code to outline the functionality of an algorithm
+Students can construct algorithms using appropriate sequences, selections/conditionals, loops and operators to solve a range of problems, to fulfil a specific requirement
+Students can implement algorithms using a programming language to solve a range of problems
+Students can apply basic search and sorting algorithms and describe the limitations and advantages of each algorithm
+Students can assemble existing algorithms or create new ones that use functions (including recursive), procedures, and module
+Students can explain the common measures of algorithmic efficiency using any algorithms studied
+Students can describe the different components within a computer and the function of those components
+Students can describe the different types of logic gates and explain how they can be arranged into larger units to perform more complex tasks
+Students can describe the rationale for using the binary number system in digital computing and how to convert between binary, hexadecimal and decimal
+Students can describe the difference between digital and analogue input
+Students can explain what is meant by the World Wide Web (WWW) and the Internet, including the client server model, hardware components and communication protocols
+Students can use data types that are common to procedural high-level languages
+Students can use ASCII and Unicode character sets to encode/decode a message and consider the importance of having such standards
+Students can collect, store and sort both continuous and discrete data
+Students can test solutions and decisions to determine their short-term and long-term outcomes
+Students can identify and fix/debug warnings and errors in computer code and modify as required
+Students can critically reflect on and identify limitations in completed code and suggest possible improvements
+Students can explain the different stages in software testing
+
+Students can understand and list user needs/requirements before defining a solution
+Students can create a basic relational database to store and retrieve a variety of forms of data types
+Students can use appropriate programming languages to develop an interactive website that can display information from a database that meets a set of users’ needs
+Students can develop algorithms that can find the frequency, mean, median and mode of a data set
+Students can structure and transform raw data to prepare it for analysis
+Students can represent data to effectively communicate in a graphical form
+Students can use algorithms to analyse and interpret data in a way that informs decision-making
+Students can develop a model that will allow different scenarios to be tested
+Students can analyse and interpret the outcome of simulations both before and after modifications have been made
+Students can explain the benefits of using agent-based modelling and how it can be used to demonstrate emergent behaviours
+Students can use and control digital inputs and outputs within an embedded system
+Students can measure and store data returned from an analogue input
+Students can develop a program that utilises digital and analogue inputs
+Students can design automated applications using embedded systems
