@@ -3,8 +3,8 @@ import sys
 import json
 import pickle
 import math
-from functions import file_not_found_msg
-from verb_category_class import VerbCategory
+from utils.files import file_not_found_msg
+from models.verb_category import VerbCategory
 
 class Taxonomy:
     """ A class to manage a learning outcome taxonomy """
@@ -27,30 +27,16 @@ class Taxonomy:
         self.filename_verbs_txt = filename_verbs_txt # Name of the input verb .txt file (File not required, but its inclusion allows for near fully-automated taxonomy object construction)
         self.verb_frequencies = {} # Number of times each verb appears in the taxonomy
 
-
         Taxonomy.num_of_taxs += 1
 
     def __str__(self):
         return f"\n{self.name}\n\n" + '\n\n'.join([str(VC) for VC in self.verb_cats])
-
 
     def __getitem__(self, index):
         return self.verb_cats[index]
 
     def __len__(self):
         return len(self.verb_cats)
-
-    def __eq__(self, other):
-        pass
-
-    def __add__(self, other):
-        pass
-
-    def __sub__(self, other):
-        pass
-
-    def __mul__(self, other):
-        pass
 
     ########################
     ### Instance Methods ###

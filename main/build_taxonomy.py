@@ -1,4 +1,4 @@
-from taxonomy_class import Taxonomy, verb_cat_list_to_dict, dump_verb_dict
+from models.taxonomy import Taxonomy, verb_cat_list_to_dict, dump_verb_dict
 
 """ Script which builds a learning outcome taxonomy for the user from an input verb .txt file and dumps it to a pickle file. A human-readable version is dumped to a json file, in the form of a dictionary """
 

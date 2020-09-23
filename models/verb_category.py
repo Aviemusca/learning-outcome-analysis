@@ -2,7 +2,7 @@ import os
 import sys
 import json
 import math
-from functions import file_not_found_msg
+from utils.files import file_not_found_msg
 
 class VerbCategory:
     """ A class to manage each verb category of a given taxonomy """

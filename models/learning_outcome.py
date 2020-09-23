@@ -3,8 +3,8 @@ import sys
 import json
 import spacy
 
-from verb_category_class import VerbCategory
-from functions import get_lines, file_not_found_msg
+from models.verb_category import VerbCategory
+from utils.files import get_lines, file_not_found_msg
 
 class LearningOutcome:
     """  A class to manage each learning outcome of a curriculum """
@@ -50,8 +50,6 @@ class LearningOutcome:
     def attach_cat_hits_dict(self, categories):
         """ Creates an attribute dictionary whose keys are the verb category names of the taxonomy"""
         self.category_hits = {category : 0 for category in categories}
-        #for category in categories:
-        #    self.category_hits[category] = 0
 
     def get_category_hits(self, verb_dictionary):
         allowed_non_verbs = ["who", "what", "where", "when", "why"]

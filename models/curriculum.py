@@ -3,9 +3,8 @@ import sys
 import json
 import pickle
 
-from strand_class import Strand
-from learning_outcome_class import LearningOutcome
-from functions import file_not_found_msg
+from models.learning_outcome import LearningOutcome
+from utils.files import file_not_found_msg
 
 
 class Curriculum:
@@ -204,9 +203,13 @@ class Curriculum:
                 LO.get_category_hits(verb_dict)
 
 
-    def get_count_dict(self, tax):
-        """ Return the count dictionary of the curriculum for a given taxonomy """
-        pass
+    def get_count_dict(self):
+        """ Return the hit count dictionary of the curriculum
+        (to be called after nlp parsing) """
+        count = {}
+        for index, strand in enumerate(self.LOs):
+            count[self.strand_names[index]] = [LO.category_hits for LO in strand]
+        return count
 
 
     #################

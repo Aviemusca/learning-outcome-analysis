@@ -1,10 +1,10 @@
 import unittest
-from taxonomy_class import Taxonomy, load_taxonomy
+from models.taxonomy import Taxonomy, load_taxonomy
 
 class TestTaxonomy(unittest.TestCase):
 
     def setUp(self):
-        self.tax_1 = Taxonomy(name='bloom', num_of_verb_cats=6, verb_cat_names=['knowledge', 'comprehension', 'application', 'analysis', 'synthesis', 'evaluation'], filename_verbs_txt="test_V_B.txt")
+        self.tax_1 = Taxonomy(name='bloom', num_of_verb_cats=6, verb_cat_names=['knowledge', 'comprehension', 'application', 'analysis', 'synthesis', 'evaluation'], filename_verbs_txt="./fixtures/test_V_B.txt")
 
     def tearDown(self):
         pass

@@ -1,4 +1,4 @@
-from verb_category_class import VerbCategory
+from models.verb_category import VerbCategory
 from functions import convert_file_ext_to_json
 
 verb_dict = VerbCategory.load_verb_dict("verbs_bloom_updated.json")

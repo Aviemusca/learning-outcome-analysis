@@ -1,9 +1,9 @@
 import unittest
-from curriculum_class import Curriculum, LO_list_to_dict, dict_to_LO_list
+from models.curriculum import Curriculum, LO_list_to_dict, dict_to_LO_list
 
 class TestCurriculum(unittest.TestCase):
     def setUp(self):
-        self.curr_1 = Curriculum(name="computer_science", country="ireland", ID="n/a", num_of_strands=3, strand_names=["core concepts", "practices and principles", "applied learning tasks"], filename_LOs_txt="test_LO_CS.txt")
+        self.curr_1 = Curriculum(name="computer_science", country="ireland", ID="n/a", num_of_strands=3, strand_names=["core concepts", "practices and principles", "applied learning tasks"], filename_LOs_txt="./fixtures/test_LO_CS.txt")
 
     def tearDown(self):
         pass
